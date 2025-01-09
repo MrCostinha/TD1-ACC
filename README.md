@@ -13,3 +13,11 @@ O **Problema da Divisão do Conjunto** busca determinar se um conjunto de númer
 
 1. **Divisão e Conquista:**  Este algoritmo aborda o problema de forma recursiva, dividindo-o em subproblemas menores e mais simples. A cada passo, ele decide se inclui o próximo número em um subconjunto ou no outro, explorando ambas as possibilidades e combinando os resultados para verificar se alguma combinação leva a uma divisão válida do conjunto original.
 2. **Algoritmo Guloso:** Este algoritmo utiliza uma heurística para tentar encontrar uma solução de forma eficiente, mas não garante que a solução encontrada seja a ideal. Ele ordena os números em ordem decrescente e, a cada passo, adiciona o próximo número ao subconjunto que possui a menor soma no momento. Essa estratégia visa equilibrar as somas dos subconjuntos, buscando uma divisão aproximada do conjunto original.
+   
+## Tabela
+
+| Tamanho do Conjunto | Divisão e Conquista (ms) | Algoritmo Guloso (ms) | 
+| ---- | ---- | ---- |
+| 5 | 0.016 | 0.021 |
+| 25 | 0.364 | 0.026 (incorreto) |
+| 50 | 12.167 | 0.053 (incorreto) |

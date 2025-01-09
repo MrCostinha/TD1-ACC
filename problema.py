@@ -3,8 +3,10 @@ from algoritmos import divisao, guloso
 
 def main():
   # Define o conjunto de entrada
-  conjunto = [2, 5, 3, 12, 9, 11]
-
+  conjunto = [8, 3, 4, 12, 21]
+  # conjunto = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, -1, -2, -3, -4]
+  # conjunto = [i for i in range(-25, 50)]
+  
   algoritmos = {
       "Divisão e Conquista": divisao.dividir,
       "Guloso": guloso.dividir,
